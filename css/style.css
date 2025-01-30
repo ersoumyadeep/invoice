@@ -1,0 +1,51 @@
+.container {
+    max-width: 800px;
+    margin:auto;
+}
+h1 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#invoice {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+button{
+    font-family: inherit;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+#result{
+    display:none;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    color:black;
+    padding: 15px;
+    
+    
+}
