@@ -36,8 +36,13 @@ button{
     justify-content: center;
     margin-top:20px;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     font-size: 15px;
+    background-color: slateblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #result{
     display:none;
